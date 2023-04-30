@@ -2,7 +2,7 @@
   "name": "fruitapi",
   "version": "1.0.0",
   "description": "",
-  "source": "app.js",
+  "source": "src/app.js",
   "main": "dist/main.js",
   "scripts": {
     "start": "nodemon app.js",
