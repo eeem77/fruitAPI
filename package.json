@@ -2,10 +2,12 @@
   "name": "fruitapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "app.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "jest": "^29.5.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "parcel": "^2.8.3"
   }
 }
